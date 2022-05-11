@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/174a4fead0.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <header >
+        <section class="barra-nav">
+            <span style="color: #fd7536;">Orange.</span>
+            <nav>
+                <ul id="menuList">
+                    <li><a href="#">My account</a></li>
+                    <li><a href="#">Offer</a></li>
+                    <li><a href="#">Wishlist</a></li>
+                    <li><a href="#">Order tracking</a></li>
+                </ul>
+            </nav>
+            <div class="user-icon">
+                <i class="fas fa-user-circle"></i>
+                <p><small>$ 0.99</small></p>
+                <i class="fas fa-shopping-bag"></i>
+            </div>
+            <img src="./menu.png" alt="" class="menu-icon" 
+            onclick="togglemenu()">
+        </section>
+        <section class="presentation-content" onclick="bodyClick()">
+            <div class="presentation-text">
+                <h1>A diffrent kind <br> of grocery store</h1>
+                <p>Oder any goods from our store online and we deliver them to you door at a time convenient for you.
+                </p>
+                <h2>$ 7.99</h2>
+                <button type="button">
+                    <a>Buy Now</a>
+                    <i class="fas fa-arrow-circle-right"></i>
+                </button>
+            </div>
+            <div class="presentation-picture">
+                <img src="./presentation-img.png" alt="" class="pre-img">
+            </div>
+        </section>
+    </header>
+
+    <main onclick="bodyClick()">
+        <section class="specials-content">
+            <h2>Special offer of this week</h2>
+            <p>100% Secure delivery whithout contacting the courier</p>
+            <div class="time">
+                <span class="time-hora">04</span>
+                <span>:</span>
+                <span class="time-hora">12</span>
+                <span>:</span>
+                <span class="time-hora">06</span>
+            </div>
+            <div class="specials-offer">
+                <div class="offer-1">
+                    <h3>Enjoy the special <br> offer up to 40%</h3>
+                    <p><small>of 20 - 26 October 2021</small></p>
+                </div>
+                <div class="offer-2">
+                    <h3>Enjoy the special <br> offer up to 40%</h3>
+                    <p><small>of 20 - 26 October 2021</small></p>
+                </div>
+                <div class="offer-3">
+                    <h3>Enjoy the special <br> offer up to 40%</h3>
+                    <p><small>of 20 - 26 October 2021</small></p>
+                </div>
+            </div>
+        </section>
+        <section class="store-content">
+            <div class="store-text">
+                <h2>A diffrent kinf of grocery store</h2>
+                <p>Order your products in our store online and we <br> deliver them to your door at a time convenient <br>
+                    for you </p>
+            </div>
+            <div class="store-buy">
+                <div class="cart buy">
+                    <i class="fas fa-cart-plus"></i>
+                    <div class="cart-text">
+                        <h3>You order receive</h3>
+                        <p>You order your favorite <br> products online</p>
+                    </div>
+                </div>
+                <div class="box buy">
+                    <i class="fas fa-box"></i>
+                    <div class="cart-text">
+                        <h3>Assistant collects</h3>
+                        <p>A personal assistant collects <br> the products from your list</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="popular-content">
+            <h2>Most Popular</h2>
+            <div class="most-popular-paragraph">
+                <p>Do not miss the current offers until the end of month</p>
+                <span> <span>See all</span> <i class="fas fa-arrow-circle-right"></i></span>
+            </div>
+            <div class="prices-fruit">
+                <div class="prices-fruits-items">
+                    <img src="naranja.png" alt="">
+                    <div class="prices-fruits-texts">
+                        <p><small>UP TO 10% DOP</small></p>
+                        <h3>Fresh Fruits</h3>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <p>(104)</p>
+                        </div>
+                        <h4>$74.00</h4>
+                    </div>
+                </div>
+                <div class="prices-fruits-items">
+                    <img src="freza.png" alt="">
+                    <div class="prices-fruits-texts">
+                        <p><small>UP TO 10% DOP</small></p>
+                        <h3>Fresh Fruits</h3>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <p>(104)</p>
+                        </div>
+                        <h4>$74.00</h4>
+                    </div>
+                </div>
+                <div class="prices-fruits-items">
+                    <img src="manzana-verde.png" alt="">
+                    <div class="prices-fruits-texts">
+                        <p><small>UP TO 10% DOP</small></p>
+                        <h3>Fresh Fruits</h3>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <p>(104)</p>
+                        </div>
+                        <h4>$74.00</h4>
+                    </div>
+                </div>
+                <div class="prices-fruits-items">
+                    <img src="apple.png" alt="">
+                    <div class="prices-fruits-texts">
+                        <p><small>UP TO 10% DOP</small></p>
+                        <h3>Fresh Fruits</h3>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <p>(104)</p>
+                        </div>
+                        <h4>$74.00</h4>
+                    </div>
+                </div>
+                <div class="prices-fruits-items">
+                    <img src="melocoton.png" alt="">
+                    <div class="prices-fruits-texts">
+                        <p><small>UP TO 10% DOP</small></p>
+                        <h3>Fresh Fruits</h3>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <p>(104)</p>
+                        </div>
+                        <h4>$74.00</h4>
+                    </div>
+                </div>
+                <div class="prices-fruits-items">
+                    <img src="naranja.png" alt="">
+                    <div class="prices-fruits-texts">
+                        <p><small>UP TO 10% DOP</small></p>
+                        <h3>Fresh Fruits</h3>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <p>(104)</p>
+                        </div>
+                        <h4>$74.00</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="foods-content">
+            <div class="food">
+                <div class="food-picture-name">
+                    <img src="./food-1.png" alt="">
+                    <div class="food-p-n">
+                        <p><small>#3477 CODE</small></p>
+                        <h3>Cheese Burger</h3>
+                    </div>
+                </div>
+                <div class="food-name-price">
+                    <i class="fas fa-star"></i>
+                    <p>$10.00</p>
+                </div>
+            </div>
+            <div class="food">
+                <div class="food-picture-name">
+                    <img src="./food-2.png" alt="">
+                    <div class="food-p-n">
+                        <p><small>#3477 CODE</small></p>
+                        <h3>Cheese Burger</h3>
+                    </div>
+                </div>
+                <div class="food-name-price">
+                    <i class="fas fa-star"></i>
+                    <p>$10.00</p>
+                </div>
+            </div>
+            <div class="food">
+                <div class="food-picture-name">
+                    <img src="./food-3.png" alt="">
+                    <div class="food-p-n">
+                        <p><small>#3477 CODE</small></p>
+                        <h3>Cheese Burger</h3>
+                    </div>
+                </div>
+                <div class="food-name-price">
+                    <i class="fas fa-star"></i>
+                    <p>$10.00</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer onclick="bodyClick()">
+        <h2>Here what out customers <br> have to say</h2>
+        <div class="persons">
+            <div class="person">
+                <div class="person-img">
+                    <img src="./img-radhames.jpg" alt="">
+                </div>
+                <h3>St. Jude</h3>
+                <p>Administrator</p>
+            </div>
+            <div class="person">
+                <div class="person-img">
+                    <img src="./img-joel.jpg" alt="">
+                </div>
+                <h3>Guy Mckinney</h3>
+                <p>Restaurant Agent</p>
+            </div>
+            <div class="person">
+                <div class="person-img">
+                    <img src="./img-radhames.jpg" alt="">
+                </div>
+                <h3>Dwight Steward</h3>
+                <p>Seller</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+
+        var menuList = document.getElementById("menuList");
+
+        star1.style.background = "#ffffff54";
+
+        function togglemenu(){
+            if(menuList.style.maxHeight == "0px"){
+                menuList.style.maxHeight = "100%";
+            }
+            else{
+                menuList.style.maxHeight="0px";
+            }
+        }
+
+        function bodyClick(){
+
+            if(menuList.style.maxHeight == "100%"){
+                menuList.style.maxHeight = "0px";
+            }
+        }
+
+    </script>
+
+</body>
+
+</html>
